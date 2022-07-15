@@ -146,6 +146,21 @@ footer a {
     text-decoration: none;
     color: #00FFFF;
 }
+
+.container {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    }  
+
+.igrejafoto {
+width: 600px;
+height: 600px;
+    }
+
+.texto{
+    padding: 20px;
+}
 /* */
 @media screen and (min-width: 768px) {
     nav {
@@ -212,8 +227,8 @@ footer a {
         display: inline-block;
         justify-content: center;
     }
-}
+    }
 
-.center{
-    text-align: center;
-}
+    .center{
+        text-align: center;
+    }    
